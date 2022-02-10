@@ -1,0 +1,11 @@
+@import "vars";
+// тут імпорт доданих scss//
+@import "about";
+
+@if variable_exists(google-font) {
+  @import url($google-font);
+}
+
+@import "normalize";
+@import "mixins/flexmixins";
+@import "mixins/utilites";

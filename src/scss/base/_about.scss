@@ -1,0 +1,167 @@
+section {
+  margin-bottom: 150px;
+}
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about {
+  background-image: url("../../i/banner-bcg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.navbar-light .navbar-brand {
+  font-size: $logoSize;
+  color: $primaryColor;
+  font-weight: $boldFontWeight;
+}
+.navbar-light,
+.navbar-toggler {
+  border: none;
+}
+.bg-light {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.page-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.big-title {
+  font-size: $BigTitleFontSize;
+  line-height: $baseLineHeight;
+  font-weight: $boldFontWeight;
+  color: $primaryColor;
+}
+.small-title {
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+  font-weight: $boldFontWeight;
+  color: $primaryColor;
+  text-align: center;
+}
+.title {
+  font-size: $titleSize;
+  line-height: $baseLineHeight;
+  font-weight: $boldFontWeight;
+  color: $primaryColor;
+  position: relative;
+  &::after {
+    content: "";
+    background-color: $secondColor;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: -1;
+    width: 60px;
+    height: 20px;
+  }
+  &-pre {
+    font-size: $baseFontSize;
+    font-weight: $boldFontWeight;
+    color: $primaryColor;
+  }
+}
+.text {
+  font-size: $baseFontSize;
+  line-height: $titleSize;
+  font-weight: $mediumFontWeight;
+  color: $primaryColor;
+}
+.second-title {
+  font-size: $logoSize;
+  line-height: $titleSize;
+  font-weight: $boldFontWeight;
+  color: $primaryColor;
+  margin-left: 30px;
+}
+.icon {
+  position: relative;
+  color: $white;
+  padding-left: 12px;
+
+  &::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: $secondColor;
+    position: absolute;
+    top: -70%;
+    left: 0%;
+    z-index: -1;
+  }
+}
+.bar {
+  height: 150px;
+  padding: 0 30px;
+  background-color: $sectionColor;
+}
+.btn {
+  width: 165px;
+  height: 50px;
+  background-color: $secondColor;
+  color: $white;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: $primaryColor;
+  &.active {
+    background-color: $secondColor;
+  }
+}
+.card {
+  border: none;
+}
+.btn-primary {
+  height: 30px;
+  width: 100px;
+  border: none;
+}
+.pre-footer {
+  height: 330px;
+  background-color: $secondColor;
+  padding: 50px 0;
+  &__title {
+    color: $white;
+    font-size: $titleSize;
+    line-height: $baseLineHeight;
+    font-weight: $boldFontWeight;
+  }
+}
+.btn-now {
+  border: none;
+  font-family: $baseFontFamily;
+  background-color: $white;
+  color: $secondColor;
+  font-weight: $boldFontWeight;
+}
+.form {
+  background-color: $white;
+  padding: 20px;
+  &__title {
+    font-size: $sizeTitle;
+    color: $primaryColor;
+    font-weight: $boldFontWeight;
+    padding: 0 20px 0 0;
+  }
+}
+.btn-outline-secondary {
+  border: none;
+}
+.footer {
+  padding: 50px 0;
+}
+ul {
+  list-style: none;
+}
+.list__link {
+  text-decoration: none;
+  margin-right: 25px;
+}
+.social-icon {
+  padding: 0 8px;
+  color: $primaryColor;
+}
