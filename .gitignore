@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 static
 
-.vsc
+.vscode
 .idea
 package-lock.json
